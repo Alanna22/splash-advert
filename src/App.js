@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Sticky from './components/test'
+import Start from './components/start'
 
 function App() {
+
+  //window.onscroll = function(ev) {
+  //  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+   //   setTimeout(() => { 
+    //    window.location.replace("https://alanna22.github.io/DVI/");
+    //  }, 2000);
+   // }
+ // };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Start />
+      <Sticky />
     </div>
   );
 }
