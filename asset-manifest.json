@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/splash-advert/static/css/main.185fe861.chunk.css",
+    "main.js": "/splash-advert/static/js/main.9d49a569.chunk.js",
+    "main.js.map": "/splash-advert/static/js/main.9d49a569.chunk.js.map",
+    "runtime-main.js": "/splash-advert/static/js/runtime-main.5a87b760.js",
+    "runtime-main.js.map": "/splash-advert/static/js/runtime-main.5a87b760.js.map",
+    "static/js/2.c2ecc8c2.chunk.js": "/splash-advert/static/js/2.c2ecc8c2.chunk.js",
+    "static/js/2.c2ecc8c2.chunk.js.map": "/splash-advert/static/js/2.c2ecc8c2.chunk.js.map",
+    "index.html": "/splash-advert/index.html",
+    "static/css/main.185fe861.chunk.css.map": "/splash-advert/static/css/main.185fe861.chunk.css.map",
+    "static/js/2.c2ecc8c2.chunk.js.LICENSE.txt": "/splash-advert/static/js/2.c2ecc8c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a87b760.js",
+    "static/js/2.c2ecc8c2.chunk.js",
+    "static/css/main.185fe861.chunk.css",
+    "static/js/main.9d49a569.chunk.js"
+  ]
+}
