@@ -42,4 +42,6 @@ const Sticky = () => (
   </StickyStyled>
 );
 
+
+
 export default Sticky;

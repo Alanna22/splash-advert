@@ -1,69 +1,168 @@
+
 .PanelOne {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
+    z-index: -1;
 }
 
 .PanelOneLeft {
     margin-right: 50px;
+    z-index: -1;
 }
 
 .PanelOneLeftBG {
     height: 57vh;
     width: auto;
+    z-index: -1;
 }
 
 .PanelOneRight {
     flex-direction: column;
+    z-index: -1;
 }
 
 .PanelOneRight img {
     height: 26.5vh;
     width: auto;
+    z-index: -5;
 }
 
 .PanelOneText {
     width: 350px;
     float:left;
-}
-
-.SinbadJog,  .cyclops {
-    height: 25vh;
+    margin-top: -500px;
     z-index: 5;
 }
 
+.SinbadJog{
+    height: 25vh;
+    z-index: 5;
+    margin-top: -200px;
+}
+
 .panelTwoBG{
-    height: 50vh;
+    height: 60vh;
     width: auto;
     margin-left: 80px;
     margin-right: 50px;
 }
 
 .space {
-    height: 50vh;
+    height: 20vh;
 }
 
 
 .PanelTwoElements { 
     display: flex;
     opacity: 0;
-    animation: appear 0.1s ease-in-out 10s forwards;
+    animation: appear 0.1s ease-in-out 7s forwards;
     
 }
 
 .cyclops {
     float: left;
-    margin-top: -14vh;
-    margin-left: -3px;
+    margin-left:10px;
+    height: 30vh;
+    width: 350px;
 }
 
 .SinbadSurprised {
-
-    float: right;
     height: 38vh;
-    margin-top: -5vh;
+    margin-right: 100px;
 }
+
+.SinbadJusJax {
+    height: 50vh;
+    margin-right: 100px;
+}
+
+.panel {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .panel.white {
+    background-color: #fff;
+  }
+
+
+  .PanelFour {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+.SinbadReady {
+    height: 40vh;
+    margin-right: 5%;
+    z-index: 5;
+}
+
+.SinbadJU {
+    height: 25vh;
+    margin-right: 22%;
+    z-index: 5;
+}
+.SinbadJD {
+    height: 27vh;
+    margin-right: 53%;
+    z-index: 5;
+}
+
+.cyclopsTwo {
+    float: left;
+    margin-left:10px;
+    height: 25vh;
+    width: 300px;
+}
+
+.panel.whiteTwo {
+    background-color: #fff;
+
+  }
+
+  .PanelFiveLeftBG {
+      height: 90vh;
+      width: 70%;
+
+  }
+
+.SinbadThwack {
+    height: 40vh;
+    margin-right: 30%;
+    z-index: 5;
+}
+
+.CyclopsThree {
+    float: left;
+    margin-left:-50px;
+    height: 50vh;
+    width: 600px;
+}
+
+.PanelSixBG {
+    height: 90vh;
+    width: 60%;
+}
+
+.PanelSixText {
+    width: 550px;
+    float:left;
+    margin-left: 50px;
+    z-index: 5;
+}
+
+.SinbadProud {
+    height: 40vh;
+    margin-right: 20%;
+    z-index: 5;
+}
+
 
 @keyframes appear {
     0% {
