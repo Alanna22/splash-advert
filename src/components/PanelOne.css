@@ -1,0 +1,75 @@
+.PanelOne {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.PanelOneLeft {
+    margin-right: 50px;
+}
+
+.PanelOneLeftBG {
+    height: 57vh;
+    width: auto;
+}
+
+.PanelOneRight {
+    flex-direction: column;
+}
+
+.PanelOneRight img {
+    height: 26.5vh;
+    width: auto;
+}
+
+.PanelOneText {
+    width: 350px;
+    float:left;
+}
+
+.SinbadJog,  .cyclops {
+    height: 25vh;
+    z-index: 5;
+}
+
+.panelTwoBG{
+    height: 50vh;
+    width: auto;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.space {
+    height: 50vh;
+}
+
+
+.PanelTwoElements { 
+    display: flex;
+    opacity: 0;
+    animation: appear 0.1s ease-in-out 10s forwards;
+    
+}
+
+.cyclops {
+    float: left;
+    margin-top: -14vh;
+    margin-left: -3px;
+}
+
+.SinbadSurprised {
+
+    float: right;
+    height: 38vh;
+    margin-top: -5vh;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }

@@ -5,7 +5,8 @@ import Logo from '../img/logoJJ.png'
 
 function start() {
     return (
-        <div>
+        <>
+        <div class="startScreen">
             <img src={Logo}></img>
             <div class="start">
                 <h1>Scroll to Begin the Adventure </h1>
@@ -17,6 +18,7 @@ function start() {
             </div>
             
         </div>
+        </>
 
         
     )

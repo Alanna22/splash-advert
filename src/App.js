@@ -1,6 +1,8 @@
 import './App.css';
-import Sticky from './components/test'
+//import Sticky from './components/test'
 import Start from './components/start'
+import Panel from './components/Panel'
+import Sticky from './components/test'
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Start />
+      <Panel />
       <Sticky />
     </div>
   );
